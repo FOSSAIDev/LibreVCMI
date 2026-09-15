@@ -11,10 +11,12 @@ The goal of this project is to allow VCMI to run out-of-the-box legally and inde
 - **`Mods/librevcmi/`** – The ready-to-use VCMI mod package containing strictly 100% libre, handcrafted, and open-source game assets:
   - `GamSelBk.png` – Main menu / scenario selection background (800x600)
   - `librevcmi_logo.png` – LibreVCMI project banner logo
-  - `DiBoxBck.png` – Seamless dark oak wood texture (256x256) used for dialog box frames and letterbox fills on high-resolution widescreen monitors
+  - `DiBoxBck.png` – Seamless dark oak wood texture (256x256) used for dialog box interiors and letterbox fills on high-resolution widescreen monitors
+  - `dialgbox.def` – Modular carved dark walnut wood dialog window frame sprite with player color inlays
 - **`tools/`** – Developer utilities to aid in the asset creation and reverse-engineering pipeline:
   - `extract_h3_assets.py` – Tool for locally extracting assets from original game archives (`.lod`, `.snd`, `.vid`) for reference and dimension analysis
   - `setup_librevcmi_stubs.py` – Generator for the developer-only `librevcmi-blackstub` mod, which replaces all missing assets with lightweight labeled black placeholders to easily pinpoint exactly what needs to be created next
+  - `generate_librevcmi_dialgbox.py` – Procedural generator for modular `dialgbox.def` window frames and corner ornaments
 
 ---
 
