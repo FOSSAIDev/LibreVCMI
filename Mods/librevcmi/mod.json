@@ -1,0 +1,8 @@
+{
+    "name": "LibreVCMI",
+    "description": "LibreVCMI - Open-source assets made for VCMI",
+    "version": "0.1.0",
+    "author": "LibreVCMI Project",
+    "contact": "https://github.com/fervi",
+    "modType": "Graphical"
+}

@@ -1,0 +1,23 @@
+# LibreVCMI development and local assets ignore rules
+
+# Never commit original copyrighted game files or stubs derived from original assets
+Mods/librevcmi-stub/
+librevcmi-stub/
+GOG/
+extracted_assets/
+*.orig
+*.lod
+*.snd
+*.vid
+
+# Intermediate & build artifacts
+__pycache__/
+*.pyc
+*.swp
+*~
+.DS_Store
+*.log
+
+# Local test outputs and temporary dumps
+scratch/
+test_output/
